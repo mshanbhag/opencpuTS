@@ -1,3 +1,5 @@
+#' @export
+
 forecast_stl<-function(input,plot.it=T){
 
 #read in csv file as data frame with same format as partsDemand and pass it as argument to this function  
@@ -13,6 +15,8 @@ forecast_stl<-function(input,plot.it=T){
   return(predict.Intera.Power.Pulsar)
 }
 
+#' @export
+
 decompose_stl<-function(input,plot.it=T){
   
   #read in csv file as data frame with same format as partsDemand and pass it as argument to this function  
@@ -25,7 +29,7 @@ decompose_stl<-function(input,plot.it=T){
     plot(stl.Intera.Power.Pulsar, main='Intera Power Pulsar')
   }
   df.Intera.Power.Pulsar = as.data.frame(stl.Intera.Power.Pulsar$time.series[,1:3])
-  return(predict.Intera.Power.Pulsar)
+  return(df.Intera.Power.Pulsar)
 }
 
 
