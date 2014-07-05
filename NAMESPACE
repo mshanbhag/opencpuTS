@@ -1,2 +1,4 @@
 export(partsDemand)
+export(forecast_stl)
+export(decompose_stl)
 importFrom(forecast)

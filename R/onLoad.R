@@ -3,4 +3,5 @@
   #do not use this in combination with lazydata=true
   utils::data(partsDemand, package=pkg, envir = parent.env(environment()))
 }
+.onLoad(lib,"opencpuTS")
 
