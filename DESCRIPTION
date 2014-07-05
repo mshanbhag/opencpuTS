@@ -1,8 +1,12 @@
 Package: opencpu-ts
 Title: Forecast Time Series and Plot Seasonality Trends
 Version: 0.1
-Authors@R: "Nitish Nayak <felarof.nayak@gmail.com>"
+Authors@R: c(person("Nitish", role = c("aut", "cre"),
+		     email = "felarof.nayak@gmail.com"),
+             person("Adam", role="aut",email="adam.hammond@quantiphi.com"))
+Author: Nitish Nayak and Adam Hammond
+Maintainer: Nitish Nayak <nitish.nayak@quantiphi.com>
 Description: Example OpenCPU app for Qphi
 Depends: R (>= 3.0.2), forecast
-License: None, for now
+License: GPL (>=2)
 LazyData: false
