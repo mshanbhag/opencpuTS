@@ -1,4 +1,4 @@
-Package: opencpu-ts
+Package: opencpuTS
 Title: Forecast Time Series and Plot Seasonality Trends
 Version: 0.1
 Authors@R: c(person("Nitish", role = c("aut", "cre"),
